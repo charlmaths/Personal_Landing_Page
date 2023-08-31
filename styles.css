@@ -1,24 +1,24 @@
 /* This resets all the presets - we are starting from scratch */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* First is to create the flex container for navigation container - this is the 'box' that surrounds menu bar */
 .navigation-container {
-  color: whitesmoke;
-  background: #2f394d;
-  padding: 10px 0;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 200px;
+    color: whitesmoke;
+    background: #2f394d;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
 }
 
 
 .navigation-items {
-  border: 1px solid #fff;  /* For debugging */
-  width: 900px;
-  display: flex;
-  justify-content: space-between;
+    border: 1px solid #fff;  /* For debugging */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
 }
+
