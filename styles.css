@@ -9,16 +9,43 @@
 .navigation-container {
     color: whitesmoke;
     background: #2f394d;
-    padding: 25px 0;
+    padding: 50px 0;
     display: flex;
     justify-content: center;
 }
 
-
+/* Another container inside the container above - this container is for the items */
 .navigation-items {
     border: 1px solid #fff;  /* For debugging */
-    width: 900px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
 }
 
+/* Items of Navigation bar below */
+.name {
+    border: 1px solid #fff;  /* For debugging */
+}
+
+.links {
+    border: 1px solid #fff;  /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-me {
+    border: 1px solid #fff;  /* For debugging */
+
+}
+
+.contact {
+    border: 1px solid #fff;  /* For debugging */
+    margin-left: 20px;
+}
+
+.projects {
+    border: 1px solid #fff;  /* For debugging */
+    margin-left: 20px;
+}
+
+/* Header */
