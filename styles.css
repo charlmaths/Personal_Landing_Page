@@ -5,27 +5,44 @@
     box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
 /* First is to create the flex container for navigation container - this is the 'box' that surrounds menu bar */
-.navigation-container {
+.pageheader-container {
+    border: 1px solid #fff;  /* For debugging */
     color: whitesmoke;
-    background: #2f394d;
-    padding: 50px 0;
+    background: #374f82;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
 }
 
 /* Another container inside the container above - this container is for the items */
-.navigation-items {
+.pageheader-container nav {
     border: 1px solid #fff;  /* For debugging */
-    width: 1000px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    /* flex-grow: 1; */
 }
 
+
 /* Items of Navigation bar below */
-.name {
-    border: 1px solid #fff;  /* For debugging */
-}
 
 .links {
     border: 1px solid #fff;  /* For debugging */
@@ -35,17 +52,59 @@
 
 .about-me {
     border: 1px solid #fff;  /* For debugging */
-
 }
 
 .contact {
     border: 1px solid #fff;  /* For debugging */
-    margin-left: 20px;
 }
 
 .projects {
     border: 1px solid #fff;  /* For debugging */
-    margin-left: 20px;
 }
 
 /* Header */
+
+.mainpage-container {
+    color: whitesmoke;
+    background: #272f3f;
+    display: flex;
+    justify-content: center;
+    /* flex-grow: 1; */
+    min-height: 100vh;
+}
+
+.mainpage-items {
+    border: 1px solid #fff;  /* For debugging */
+    width: 900px;
+    height: 400px;
+    padding: 20px 0;
+    display: flex;
+    /* min-height: 80vh; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.introduction {
+    border: 1px solid #fff;  /* For debugging */
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-para {
+    border: 1px solid #fff;  /* For debugging */
+}
+
+
+.mainpage-image {
+    border: 1px solid #fff;  /* For debugging */
+}
+
+
+.footer {
+    border: 1px solid #fff;  /* For debugging */
+    color: black;
+    background: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
