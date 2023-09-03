@@ -14,11 +14,6 @@ a {
   color: inherit;
 }
 
-button {
-  background: none;
-  outline: none;
-  cursor: pointer;
-}
 
 .wrapper {
   display: flex;
@@ -33,37 +28,37 @@ button {
 
 /* ##### HEADER ###### */
 /* Header background - not a flexbox */
-.page-header {
-    border: 1px solid #fff;  /* For debugging */
-    color: whitesmoke;
-    background: #374f82;
-    /* display: flex; */
+.header-containerbg {
+  border: 1px solid #fff;  /* For debugging */
+  color: whitesmoke;
+  background: #374f82;
+  display: flex;
+  justify-content: center;
 }
 
 /* Header Navigations - this will be a flexbox container */
-.page-header nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #fff;  /* For debugging */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #fff;  /* For debugging */
+
 }
 
-/* This is for the list - we are making it as a flexbox container as well */
-.page-header ul {
-    display: flex;
-    order: 1;
-    width: 100%;
-    margin-top: 15px;
+.header-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  border: 1px solid #fff;  /* For debugging */
 }
 
-.page-header ul li:not(:last-child) {
-  padding-right: 15px;
+.header-items div {
+  border: 1px solid #fff;  /* For debugging */
+  display:flex;
+  margin-left: 10px;
 }
 
-
-
-/* Header */
 
 .mainpage-container {
     color: whitesmoke;
