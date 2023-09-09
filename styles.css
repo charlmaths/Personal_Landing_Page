@@ -27,31 +27,32 @@ a {
 
 
 /* ##### HEADER ###### */
-/* Header background - not a flexbox */
+
 .header-container {
-  border: 1px solid #fff;  /* For debugging */
+  border: 3px solid black;  /* For debugging */
   color: rgb(41, 39, 39);
   background: whitesmoke;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 5px;
 }
 
 .header-container h1 {
-  border: 1px solid black;  /* For debugging */
+  /* border: 1px solid black;  For debugging */
   margin: 0;
+  font-size: 40px;
 }
 
-
 .header-container nav ul {
-  border: 1px solid black;  /* For debugging */
+  /* border: 1px solid black;  For debugging */
   list-style: none;
   display: flex;
+  font-size: 20px;
 }
 
 .header-container li {
-  border: 1px solid black;  /* For debugging */
+  /* border: 1px solid black;  For debugging */
   margin-right: 20px;
 }
 
@@ -60,34 +61,10 @@ a {
   color: inherit;
 }
 
-
-/* Header Navigations - this will be a flexbox container
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #fff;
-}
-
-.header-items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 900px;
-  border: 1px solid #fff;
-}
-
-.header-items div {
-  border: 1px solid #fff;
-  display:flex;
-  margin-left: 10px;
-}
-
-
 /* ##### Body ##### */
 
 .main-container {
-  border: 1px solid black;  /* For debugging */
+  border: 3px solid black;  /* For debugging */
   color: rgb(41, 39, 39);
   background: whitesmoke;
   display: flex;
@@ -97,14 +74,29 @@ a {
   min-height: 100vh;
 }
 
+
 .main-container .introduction {
-  border: 1px solid black;  /* For debugging */
+  border: 1px dashed black;  /* For debugging */
   flex: 1;
   padding: 20px;
 }
 
+
+.introduction h1 {
+  font-size: 80px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.introduction p {
+  font-size: 20px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+
 .main-container .main-image {
-  border: 1px solid black;  /* For debugging */
+  /* border: 1px solid black;  For debugging */
   flex: 1;
   padding: 20px;
   text-align: center;
@@ -113,49 +105,18 @@ a {
 .main-container img {
   max-width: 100%;
   height: auto;
+  background-image: none;
 }
 
 
-
-/*
-.introduction {
-
-    display: flex;
-    flex-direction: column;
-}
-
-.intro-para {
-
-
-    display: flex;
-    flex-direction: column;
-}
-
-.intro-para .mainintro {
-
-  display: flex;
-  flex-direction: column;
-  font-size: 3em;
-}
-
-.intro-para .mainparagraph {
-
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-}
-
-.intro-para .main-image {
-
-    display: flex;
-}
- */
-
+/* ##### Footer ##### */
 
 .footer {
     border: 1px solid black;  /* For debugging */
     color: rgb(41, 39, 39);
     background: whitesmoke;
-    text-align: center;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
 }
