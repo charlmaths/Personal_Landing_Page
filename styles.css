@@ -29,9 +29,9 @@ a {
 /* ##### HEADER ###### */
 
 .header-container {
-  border: 3px solid black;  /* For debugging */
+  /* border: 3px solid black;  For debugging */
   color: rgb(41, 39, 39);
-  background: whitesmoke;
+  /* background: whitesmoke; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,6 +42,7 @@ a {
   /* border: 1px solid black;  For debugging */
   margin: 0;
   font-size: 40px;
+  margin-left: 15px;
 }
 
 .header-container nav ul {
@@ -72,11 +73,14 @@ a {
   align-items: center;
   padding: 20px;
   min-height: 100vh;
+  min-width: 50vh;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
 .main-container .introduction {
-  border: 1px dashed black;  /* For debugging */
+  /* border: 1px dashed black;  For debugging */
   flex: 1;
   padding: 20px;
 }
@@ -112,7 +116,7 @@ a {
 /* ##### Footer ##### */
 
 .footer {
-    border: 1px solid black;  /* For debugging */
+    /* border: 1px solid black;  For debugging */
     color: rgb(41, 39, 39);
     background: whitesmoke;
     display: flex;
